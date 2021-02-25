@@ -8,18 +8,18 @@
 
 
 " These are the colour codes that are used in the original onedark theme
-let s:black        = [ '#191b1c', 235]
-let s:white        = [ '#abb2bf', 145]
-let s:light_red    = [ '#e06c75', 204]
-let s:dark_red     = [ '#be5046', 196]
-let s:green        = [ '#98c379', 114]
-let s:light_yellow = [ '#e5c07b', 180]
-let s:dark_yellow  = [ '#d19a66', 173]
-let s:blue         = [ '#61afef', 39]
-let s:magenta      = [ '#c678dd', 170]
-let s:cyan         = [ '#56b6c2', 38]
-let s:gutter_grey  = [ '#636d83', 238]
-let s:comment_grey = [ '#5c6370', 59]
+let s:black        = '#191b1c'
+let s:white        = '#abb2bf'
+let s:light_red    = '#e06c75'
+let s:dark_red     = '#be5046'
+let s:green        = '#98c379'
+let s:light_yellow = '#e5c07b'
+let s:dark_yellow  = '#d19a66'
+let s:blue         = '#61afef'
+let s:magenta      = '#c678dd'
+let s:cyan         = '#56b6c2'
+let s:gutter_grey  = '#636d83'
+let s:comment_grey = '#5c6370'
 
 
 let s:p = {'normal':{}, 'inactive':{}, 'insert':{}, 'replace':{}, 'visual':{}, 'tabline':{}}
