@@ -8,8 +8,9 @@
 
 
 " These are the colour codes that are used in the original onedark theme
-let s:black        = '#191b1c'
-let s:white        = '#abb2bf'
+let g:black        = '#191b1c'
+let s:white        = '#ffffff'
+"let s:white        = '#abb2bf'
 let s:light_red    = '#e06c75'
 let s:dark_red     = '#be5046'
 let s:green        = '#98c379'
@@ -54,4 +55,4 @@ let s:p.normal.error    = [ [ s:black, s:light_red ] ]
 let s:p.normal.warning  = [ [ s:black, s:light_yellow ] ]
 
 
-let g:lightline#colorscheme#modern_gruvbox#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#modern_gruvbox#palette = lightline#colorscheme#fill(s:p)
