@@ -8,7 +8,7 @@
 
 
 " These are the colour codes that are used in the original onedark theme
-let s:black        = [ '#282c34', 235]
+let s:black        = [ '#191b1c', 235]
 let s:white        = [ '#abb2bf', 145]
 let s:light_red    = [ '#e06c75', 204]
 let s:dark_red     = [ '#be5046', 196]
